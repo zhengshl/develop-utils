@@ -44,5 +44,6 @@ public class SendHttpPostUtil {
         String content = "{'userName':'admin','password':'123456'}";
         String msg = SendHttpPostUtil.doHttpPost(sendUrl, key, content);
         System.out.println("响应信息：" + msg);
+        System.out.println("增加一行输出，测试github");
     }
 }
